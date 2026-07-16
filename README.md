@@ -1,22 +1,23 @@
+# MentalHealthAI
 
-# AI-Based Mental Health Monitoring System
-
-A Flask web application for tracking daily mental wellness and generating AI-powered insights. This project helps users log mood, sleep, exercise, water intake, screen time, stress levels, and journal entries. It also analyzes journal sentiment, predicts stress risk using a trained Random Forest model, and generates downloadable PDF wellness reports.
+A Flask-based mental wellness monitoring system designed as a final-year academic project.
 
 ## Features
-
 - User registration, login, logout, and profile management
-- Daily mood tracker with stress and habit metrics
+- Daily mood tracking with sleep, exercise, water, screen time, and stress metrics
 - Journal sentiment analysis using TextBlob
-- AI prediction of mental wellness risk
-- Personalized recommendations for stress management
-- Dashboard with charts and wellness score
+- Random Forest-based mental health risk prediction
+- Dashboard with charts and wellness summary
 - PDF report generation
-- SQLite database with SQLAlchemy ORM
 
-## Tech Stack
-
-- Python, Flask, SQLAlchemy, SQLite
-- HTML5, CSS3, JavaScript, Bootstrap 5, Font Awesome
-- Pandas, NumPy, Scikit-learn, TextBlob, Joblib
-- ReportLab for PDF generation
+## Setup
+1. Create and activate a virtual environment.
+2. Install requirements:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the app:
+   ```bash
+   python app.py
+   ```
+4. Open http://127.0.0.1:5000/
